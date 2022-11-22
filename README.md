@@ -6,7 +6,7 @@ A 1.18.1 plugin for your next minecraft challenge
 
  * [How to build](#how-to-build)
     * [Git](#git)
-    * [IntelliJ IDEA](#IntelliJ IDEA)
+    * [IntelliJ IDEA](#IntelliJ-IDEA)
     * [Cloning and generating the plugin](#cloning-and-generating-the-plugin)
  * [Staying Up To Date](#staying-up-to-date)
  * [Project Structure](#project-structure)
@@ -18,7 +18,7 @@ A 1.18.1 plugin for your next minecraft challenge
 Requirements:
 
  * [Git](#Git)
- * [IntelliJ IDEA](#IntelliJ IDEA)
+ * [IntelliJ IDEA](#IntelliJ-IDEA)
 
 If you have both of the above requirements you can skip to [cloning the git repo and generating the project files](#cloning-and-generating-project-files).
 
