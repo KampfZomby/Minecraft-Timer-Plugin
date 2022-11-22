@@ -3,8 +3,6 @@ package plugin.plugin;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
-import plugin.plugin.challenges.Challenges;
-import plugin.plugin.challenges.ChallengesCommand;
 import plugin.plugin.listener.DeathListener;
 import plugin.plugin.listener.JoinListener;
 import plugin.plugin.listener.QuitListener;
@@ -20,7 +18,6 @@ public final class Plugin extends JavaPlugin {
     private static Plugin instance;
 
     private Timer timer;
-    private Challenges challenges;
     private Config config;
 
     @Override
@@ -41,10 +38,8 @@ public final class Plugin extends JavaPlugin {
         manager.registerEvents(new TimerMenuHandler(), this);
 
         Objects.requireNonNull(getCommand("timer")).setExecutor(new TimerCommand());
-        Objects.requireNonNull(getCommand("challenges")).setExecutor(new ChallengesCommand());
 
         timer = new Timer(false, 0, true, false);
-        challenges = new Challenges(true, false);
     }
 
     @Override
@@ -65,10 +60,6 @@ public final class Plugin extends JavaPlugin {
 
     public Timer getTimer() {
         return timer;
-    }
-
-    public Challenges getChallenges() {
-        return challenges;
     }
 
 }

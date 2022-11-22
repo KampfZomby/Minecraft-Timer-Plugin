@@ -92,7 +92,7 @@ public class TimerCommand implements CommandExecutor {
     private void stop(CommandSender sender) {
         Timer timer = Plugin.getInstance().getTimer();
         if (!timer.isRunning()) {
-            sender.sendMessage(ChatColor.RED + ">> " + ChatColor.RESET + ">> Timer is not running");
+            sender.sendMessage(ChatColor.RED + ">> " + ChatColor.RESET + "Timer is not running");
         } else {
             timer.setRunning(false);
             sender.sendMessage(ChatColor.GREEN + ">> " + ChatColor.RESET + "Timer is now paused");
