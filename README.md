@@ -77,4 +77,4 @@ git pull
 
 ## Contributing
 
-Feel free to contribute as long as it helps the plugin get better
+Feel free to contribute as long as it helps the plugin to get better
