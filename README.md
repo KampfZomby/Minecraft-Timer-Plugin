@@ -6,8 +6,8 @@ A 1.18.1 plugin for your next minecraft challenge
 
  * [How to build](#how-to-build)
     * [Git](#git)
-    * [IntelliJ IDEA](#IntelliJIDEA)
-    * [Cloning and generating the plugun](#cloning-and-generating-the-plugin)
+    * [IntelliJ IDEA](#IntelliJ IDEA)
+    * [Cloning and generating the plugin](#cloning-and-generating-the-plugin)
  * [Staying Up To Date](#staying-up-to-date)
  * [Project Structure](#project-structure)
  * [Features](#features)
@@ -18,7 +18,7 @@ A 1.18.1 plugin for your next minecraft challenge
 Requirements:
 
  * [Git](#Git)
- * [IntelliJ IDEA](#IntelliJIDEA)
+ * [IntelliJ IDEA](#IntelliJ IDEA)
 
 If you have both of the above requirements you can skip to [cloning the git repo and generating the project files](#cloning-and-generating-project-files).
 
@@ -34,7 +34,7 @@ IntelliJ IDEA is an integrated development environment and used to generate the 
 
 [Download Link](https://www.jetbrains.com/idea/download/)
 
-### Cloning and generating project files
+### Cloning and generating the plugin
 
 - Make sure that you have installed Git and IntelliJ IDEA.
 
@@ -45,7 +45,9 @@ IntelliJ IDEA is an integrated development environment and used to generate the 
 
 #### Generate the plugin
 
-- IntelliJ IDEA
+- Open IntelliJ IDEA and download the Minecraft Development plugin
+
+- Open the project and build it
 
 ## Staying Up To Date
 
@@ -66,11 +68,11 @@ git pull
 ## Features
 
  - `/timer` opens a menu
- - `/timer resume/start/run`
- - `/timer pause/stop`
- - `/timer set <time>`
- - `/timer reset`
- - `/timer show/hide`
- - `/timer mode`
+ - `/timer resume/start/run` to start the timer
+ - `/timer pause/stop` and pause the timer
+ - `/timer set <time>` set the timer to a specific point
+ - `/timer reset`, now the timer is 0
+ - `/timer show/hide` shows the counter above the hotbar or not
+ - `/timer mode` make the timer count forward and backward
 
 ## Contributing
