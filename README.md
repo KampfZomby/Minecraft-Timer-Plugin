@@ -76,3 +76,5 @@ git pull
  - `/timer mode` make the timer count forward and backward
 
 ## Contributing
+
+Feel free to contribute as long as it helps the plugin get better
