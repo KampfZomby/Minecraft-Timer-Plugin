@@ -61,7 +61,7 @@ git pull
 
 ## Project Structure
 
-- `listener/` all features that are waiting for something like someone joinig are here
+- `listener/` all features that are waiting for something like someone joining are here
 - `timer/` includes everything related to the timer
 - `Plugin.java/` main file
 
