@@ -20,7 +20,7 @@ Requirements:
  * [Git](#Git)
  * [IntelliJ IDEA](#IntelliJ-IDEA)
 
-If you have both of the above requirements you can skip to [cloning the git repo and generating the project files](#cloning-and-generating-project-files).
+If you have both of the above requirements you can skip to [cloning the git repo and generating the plugin files](#cloning-and-generating-the-plugin).
 
 ### Git
 
